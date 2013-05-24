@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Canvas neurons</title>
+		<style>
+			* {
+			  margin: 0;
+			  padding: 0;
+			  background: #241C1F;
+			}
+			canvas {
+			  margin: 0 auto;
+			  display: block;
+			  border-left: 0;
+			  border-right: 0;
+			}
+			p {
+				position: absolute;
+				margin: 10px;
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+	<p id="fps"></p>
+	<canvas id="mainCanvas" width="900" height="300"></canvas>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+	<script src="neurons.js"></script>
+	</body>
+</html>
